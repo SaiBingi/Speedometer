@@ -1,0 +1,75 @@
+.container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-style: italic;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 39px;
+}
+
+.image {
+  width: 560px;
+}
+
+.speed-status {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.speed-limit {
+  font-family: 'Roboto';
+  color: #94a3b8;
+  font-weight: 400;
+  font-size: 13px;
+  margin: 40px;
+}
+
+.button {
+  border-radius: 6px;
+  border-width: 0;
+  padding: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-family: 'Roboto';
+  font-size: 11px;
+  cursor: pointer;
+  outline: none;
+}
+
+.button-1 {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: 2px solid #0b69ff;
+  margin-right: 20px;
+}
+
+.button-2 {
+  background-color: transparent;
+  color: #94a3b8;
+  border: 2px solid #94a3b8;
+}
+
+@media screen and (max-width: 992px) {
+  .image {
+    width: 300px;
+  }
+  .heading {
+    font-size: 35px;
+  }
+  .button {
+    font-size: 12px;
+  }
+  .speed-status {
+    font-size: 23px;
+  }
+}
